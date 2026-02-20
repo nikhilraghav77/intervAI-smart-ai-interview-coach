@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>AI Interview Coach</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="profile.html">Profile</a>
+            <a href="index.html">Home</a> |
+            <a href="login.html">Login</a> |
+            <a href="register.html">Register</a> |
+            <a href="dashboard.html">Dashboard</a> |
+            <a href="interview.html">Interview</a> |
+            <a href="feedback.html">Feedback</a>
+        </nav>
+    </header>
+
+    
+    <main>
+
+        <h2>Dashboard</h2>
+
+        <section>
+            <h3>Select Interview Type</h3>
+
+            <form id="interviewSetup" action="interview.html" method="get">
+
+                <label>Category</label><br>
+                <select name="category">
+                    <option value="hr">HR</option>
+                    <option value="technical">Technical</option>
+                    <option value="behavioral">Behavioral</option>
+                </select>
+
+                <br><br>
+
+                <label>Domain</label><br>
+                <select name="domain">
+                    <option value="java">Java</option>
+                    <option value="ai">AI / ML</option>
+                    <option value="dsa">DSA</option>
+                </select>
+
+                <br><br>
+
+                <button type="submit">Start Interview</button>
+            </form>
+        </section>
+
+        <a href="analytics.html">View Performance</a><br>
+        <a href="index.html">Logout</a>
+
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2026 AI Interview Coach | Developed by Nikhil Raghav</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
